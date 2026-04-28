@@ -1746,7 +1746,7 @@ async function loadProcessStats() {
     frag.appendChild(item);
   });
 
-  list.innerHTML = '';
+  list.innerHTML = "";
   list.appendChild(frag);
 }
 
