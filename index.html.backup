@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nova — The next-generation PC optimization suite for gamers, developers, and power users.">
+    <title>Nova | Command Your Performance</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="bg-layer" style="display: none; opacity: 0;"></div>
+    
+    <!-- Cinematic Full-Screen Fade Overlay -->
+    <div id="cinematic-fade" style="position: fixed; inset: 0; background: #000; z-index: 999998; opacity: 1; pointer-events: none;"></div>
+    
+    <!-- Loading Screen -->
+    <div id="loading-screen" style="position: fixed; inset: 0; background: var(--bg-deep); z-index: 999999; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2.5rem;">
+      <!-- NOVA Text with dramatic entrance -->
+      <div style="text-align: center; animation: novaEntrance 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;">
+        <div style="font-size: 4rem; font-weight: 900; letter-spacing: 0.5em; background: linear-gradient(90deg, var(--accent-magenta), var(--accent-cyan), var(--accent-magenta)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: textShine 3s ease-in-out infinite, novaGlow 2s ease-in-out infinite; background-size: 200% auto; filter: drop-shadow(0 0 30px var(--glow-magenta)) drop-shadow(0 0 60px var(--glow-cyan));">NOVA</div>
+        <div style="font-size: 0.8rem; color: var(--text-dim); margin-top: 1rem; letter-spacing: 0.4em; text-transform: uppercase; animation: subtitleFade 1.5s ease 0.5s forwards; opacity: 0;">Advanced Performance Suite</div>
+      </div>
+      
+      <!-- Enhanced Progress Bar -->
+      <div style="width: 350px; position: relative;">
+        <div style="height: 2px; background: rgba(255,255,255,0.05); border-radius: 1px; overflow: hidden;">
+          <div id="loading-bar" style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-magenta), var(--accent-cyan), var(--accent-magenta)); background-size: 200% 100%; box-shadow: 0 0 30px var(--glow-magenta), 0 0 60px var(--glow-cyan); transition: width 0.1s linear; animation: shimmer 2s linear infinite;"></div>
+        </div>
+        <!-- Progress markers -->
+        <div style="display: flex; justify-content: space-between; margin-top: 8px; font-size: 0.6rem; color: var(--text-dim); letter-spacing: 0.1em;">
+          <span>INIT</span><span>LOAD</span><span>OPTIMIZE</span><span>SYNC</span><span>READY</span>
+        </div>
+      </div>
+      
+      <!-- Futuristic Data Display -->
+      <div style="display: flex; gap: 4rem; padding: 1rem 2rem; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px;">
+        <div style="text-align: center;">
+          <div style="font-size: 0.6rem; color: var(--text-dim); letter-spacing: 0.2em; margin-bottom: 4px;">PROGRESS</div>
+          <div id="loading-percent" style="font-size: 2rem; font-weight: 800; color: var(--accent-magenta); font-family: 'Inter', monospace; text-shadow: 0 0 20px var(--glow-magenta);">0%</div>
+        </div>
+        <div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
+        <div style="text-align: center;">
+          <div style="font-size: 0.6rem; color: var(--text-dim); letter-spacing: 0.2em; margin-bottom: 4px;">MODULES</div>
+          <div id="loading-modules" style="font-size: 2rem; font-weight: 800; color: var(--accent-cyan); font-family: 'Inter', monospace; text-shadow: 0 0 20px var(--glow-cyan);">0/7</div>
+        </div>
+        <div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
+        <div style="text-align: center;">
+          <div style="font-size: 0.6rem; color: var(--text-dim); letter-spacing: 0.2em; margin-bottom: 4px;">STATUS</div>
+          <div id="loading-status" style="font-size: 0.75rem; color: var(--text-main); letter-spacing: 0.1em; min-width: 140px;">INITIALIZING...</div>
+        </div>
+      </div>
+      
+      <!-- Animated Futuristic Countdown -->
+      <div style="text-align: center;">
+        <div style="font-size: 0.55rem; color: var(--text-dim); letter-spacing: 0.3em; margin-bottom: 12px;">ESTIMATED TIME REMAINING</div>
+        <div style="display: flex; gap: 8px; justify-content: center; align-items: center;">
+          <!-- Minutes -->
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+            <div style="display: flex; gap: 2px;">
+              <div class="countdown-digit" id="countdown-min-0" style="width: 28px; height: 36px; background: rgba(255,255,255,0 Ascending/descending alphabetical order by file name: .gitignore
+app.asar
+dist-electron/
+electron-main.cjs
+extended-tweaks-lock.json
+FIX_PLAN.md
+icon.ico
+index.html
+main.ts
+nova_circle_logo_final.png
+package-lock.json
+package.json
+preload.cjs
+socials.html
+style.css
+TODO.md
+tsconfig.json
+tweaks-lock.json
+tweaks.json
+vite.config.ts
+

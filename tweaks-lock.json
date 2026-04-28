@@ -1,0 +1,513 @@
+{
+  "name": "pc-optimizer-tweaks",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "pc-optimizer-tweaks",
+      "version": "1.0.0"
+    },
+    "node_modules/AllJoyn-Router-Service": {
+      "version": "4",
+      "resolved": "Service://AJRouter",
+      "integrity": "sha512-Disable for RAM/CPU gaming",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Bluetooth-Audio-Gateway": {
+      "version": "4",
+      "resolved": "Service://BthAvctpSvc",
+      "integrity": "sha512-Disable if no BT headset",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Bluetooth-Support-Service": {
+      "version": "4",
+      "resolved": "Service://bthserv",
+      "integrity": "sha512-Disable if wired only",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Certificate-Propagation": {
+      "version": "4",
+      "resolved": "Service://CertPropSvc",
+      "integrity": "sha512-Smart cards",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Connected-Devices-Platform-Service": {
+      "version": "4",
+      "resolved": "Service://CDPSvc",
+      "integrity": "sha512-Connected devices",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Data-Usage": {
+      "version": "4",
+      "resolved": "Service://DusmSvc",
+      "integrity": "sha512-Data usage tracking",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Device-Management-Enrollment-Service": {
+      "version": "4",
+      "resolved": "Service://DeviceManagement",
+      "integrity": "sha512-Device enrollment",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Downloaded-Maps-Manager": {
+      "version": "4",
+      "resolved": "Service://MapsBroker",
+      "integrity": "sha512-Maps",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Enterprise-App-Management-Service": {
+      "version": "4",
+      "resolved": "Service://entappmgmt",
+      "integrity": "sha512-Enterprise apps",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Geofencing-Service": {
+      "version": "4",
+      "resolved": "Service://lfsvc",
+      "integrity": "sha512-Geofencing",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Microsoft-Store-Install-Service": {
+      "version": "4",
+      "resolved": "Service://InstallService",
+      "integrity": "sha512-Store installs",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/NFC-SE-Manager": {
+      "version": "4",
+      "resolved": "Service://SEMgrSvc",
+      "integrity": "sha512-NFC payments",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Parental-Controls": {
+      "version": "4",
+      "resolved": "Service://WPCSvc",
+      "integrity": "sha512-Parental controls",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Phone-Service": {
+      "version": "4",
+      "resolved": "Service://PhoneSvc",
+      "integrity": "sha512-Phone Link",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/PrintWorkflow": {
+      "version": "4",
+      "resolved": "Service://PrintWorkflow",
+      "integrity": "sha512-Print workflow",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Quality-Windows-Audio-Video-Experience": {
+      "version": "4",
+      "resolved": "Service://QWAVE",
+      "integrity": "sha512-qWAVE",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Remote-Desktop-Configuration": {
+      "version": "4",
+      "resolved": "Service://SessionEnv",
+      "integrity": "sha512-RDP config",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Remote-Desktop-Services": {
+      "version": "4",
+      "resolved": "Service://TermService",
+      "integrity": "sha512-TermService",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Secondary-Logon": {
+      "version": "4",
+      "resolved": "Service://seclogon",
+      "integrity": "sha512-Secondary logon",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Sensor-Data-Service": {
+      "version": "4",
+      "resolved": "Service://SensorDataService",
+      "integrity": "sha512-Sensor data",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Sensor-Monitoring-Service": {
+      "version": "4",
+      "resolved": "Service://SensrSvc",
+      "integrity": "sha512-Sensor monitor",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Sensor-Service": {
+      "version": "4",
+      "resolved": "Service://SensorService",
+      "integrity": "sha512-Sensor service",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Shared-PC-Account-Manager": {
+      "version": "4",
+      "resolved": "Service://shpamsvc",
+      "integrity": "sha512-Shared PC",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Smart-Card": {
+      "version": "4",
+      "resolved": "Service://SCardSvr",
+      "integrity": "sha512-Smart card",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+
+    "node_modules/Smart-Card-Removal-Policy": {
+      "version": "4",
+      "resolved": "Service://SCPolicySvc",
+      "integrity": "sha512-Smart card policy",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/SNMP-Trap": {
+      "version": "4",
+      "resolved": "Service://SNMPTRAP",
+      "integrity": "sha512-SNMP Trap",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Touch-Keyboard-and-Handwriting-Panel": {
+      "version": "4",
+      "resolved": "Service://TabletInputService",
+      "integrity": "sha512-Touch keyboard",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Biometric-Service": {
+      "version": "4",
+      "resolved": "Service://WbioSrvc",
+      "integrity": "sha512-Biometric",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Camera-Frame-Server": {
+      "version": "4",
+      "resolved": "Service://FrameServer",
+      "integrity": "sha512-Camera frame",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Connect-Now": {
+      "version": "4",
+      "resolved": "Service://wcncsvc",
+      "integrity": "sha512-Windows connect",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Error-Reporting-Service": {
+      "version": "4",
+      "resolved": "Service://WerSvc",
+      "integrity": "sha512-Error reporting",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Image-Acquisition-WIA": {
+      "version": "4",
+      "resolved": "Service://stisvc",
+      "integrity": "sha512-WIA scanner",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Media-Player-Network-Sharing": {
+      "version": "4",
+      "resolved": "Service://WMPNetworkSvc",
+      "integrity": "sha512-Media sharing",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Mobile-Hotspot-Service": {
+      "version": "4",
+      "resolved": "Service://icssvc",
+      "integrity": "sha512-Mobile hotspot",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Work-Folders": {
+      "version": "4",
+      "resolved": "Service://workfolderssvc",
+      "integrity": "sha512-Work folders",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Xbox-Accessory-Management-Service": {
+      "version": "4",
+      "resolved": "Service://XboxGipSvc",
+      "integrity": "sha512-Xbox accessories",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Xbox-Live-Networking-Service": {
+      "version": "4",
+      "resolved": "Service://XboxNetApiSvc",
+      "integrity": "sha512-Xbox networking",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/OneSyncSvc": {
+      "version": "4",
+      "resolved": "Service://OneSyncSvc",
+      "integrity": "sha512-Contacts calendar sync",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/MessagingService": {
+      "version": "4",
+      "resolved": "Service://MessagingService",
+      "integrity": "sha512-Messaging",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/dmwappushservice": {
+      "version": "4",
+      "resolved": "Service://dmwappushservice",
+      "integrity": "sha512-WAP Push",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Push-Notifications-System-Service": {
+      "version": "4",
+      "resolved": "Service://WpnService",
+      "integrity": "sha512-WpnService kills toasts",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Diagnostic-Execution-Service": {
+      "version": "4",
+      "resolved": "Service://desvc",
+      "integrity": "sha512-Diagnostic execution",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Microsoft-Account-Sign-in-Assistant": {
+      "version": "4",
+      "resolved": "Service://wlidsvc",
+      "integrity": "sha512-Microsoft account if local",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Windows-Insider-Service": {
+      "version": "4",
+      "resolved": "Service://wisvc",
+      "integrity": "sha512-Windows Insider",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/SystemResponsiveness": {
+      "version": "0",
+      "resolved": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile",
+      "integrity": "sha512-gives games 100 CPU GamingLatency",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Win32PrioritySeparation": {
+      "version": "38",
+      "resolved": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\PriorityControl\\Win32PrioritySeparation",
+      "integrity": "sha512-foreground max boost",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/StartupDelayInMSec": {
+      "version": "0",
+      "resolved": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Serialize\\StartupDelayInMSec",
+      "integrity": "sha512-removes 10sec delay",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Games-GPU-Priority": {
+      "version": "8",
+      "resolved": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile\\Tasks\\Games\\GPU Priority",
+      "integrity": "sha512-Games GPU priority GamingLatency",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/First-Logon-Animation": {
+      "version": "0",
+      "resolved": "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\FirstLogonAnimationDisabled",
+      "integrity": "sha512-Disable first logon animation",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Consumer-Features": {
+      "version": "1",
+      "resolved": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+      "integrity": "sha512-Disable Candy Crush auto-install Bloat",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    }
+  }
+}

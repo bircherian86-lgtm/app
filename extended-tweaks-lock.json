@@ -1,0 +1,293 @@
+{
+  "name": "pc-optimizer-extended-tweaks",
+  "version": "2.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "pc-optimizer-extended-tweaks",
+      "version": "2.0.0"
+    },
+    "node_modules/MicrosoftCompatibilityAppraiser": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Application Experience\\Microsoft Compatibility Appraiser",
+      "integrity": "sha512-Kill telemetry gaming PC",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/ProgramDataUpdater": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Application Experience\\ProgramDataUpdater",
+      "integrity": "sha512-App usage stats",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/StartupAppTask": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Application Experience\\StartupAppTask",
+      "integrity": "sha512-Startup telemetry",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Proxy": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Autochk\\Proxy",
+      "integrity": "sha512-Chkdsk proxy",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/UninstallDeviceTask": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Bluetooth\\UninstallDeviceTask",
+      "integrity": "sha512-Bluetooth cleanup",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/SystemTask": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\CertificateServicesClient\\SystemTask",
+      "integrity": "sha512-Certificate system",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/UserTask": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\CertificateServicesClient\\UserTask",
+      "integrity": "sha512-Certificate user",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/ProactiveScan": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Chkdsk\\ProactiveScan",
+      "integrity": "sha512-Chkdsk proactive",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/SyspartRepair": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Chkdsk\\SyspartRepair",
+      "integrity": "sha512-Chkdsk system repair",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/LicenseValidation": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Clip\\LicenseValidation",
+      "integrity": "sha512-Clip license",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/CreateObjectTask": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\CloudExperienceHost\\CreateObjectTask",
+      "integrity": "sha512-CloudExperienceHost",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Consolidator": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Customer Experience Improvement Program\\Consolidator",
+      "integrity": "sha512-CEIP telemetry",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/UsbCeip": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Customer Experience Improvement Program\\UsbCeip",
+      "integrity": "sha512-USB CEIP",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/ScheduledDefrag": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+      "integrity": "sha512-SSD only gaming",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Device": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Device Information\\Device",
+      "integrity": "sha512-Device info",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Metadata Refresh": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Device Setup\\Metadata Refresh",
+      "integrity": "sha512-Device metadata",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/RecommendedTroubleshootingScanner": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Diagnosis\\RecommendedTroubleshootingScanner",
+      "integrity": "sha512-Diagnosis scanner",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/SilentCleanup": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\DiskCleanup\\SilentCleanup",
+      "integrity": "sha512-Disk cleanup",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/Diagnostics": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\DiskFootprint\\Diagnostics",
+      "integrity": "sha512-Disk footprint",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/StorageSense": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\DiskFootprint\\StorageSense",
+      "integrity": "sha512-Storage sense",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/dusmtask": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\DUSM\\dusmtask",
+      "integrity": "sha512-DUSM data usage",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/MDMMaintenenceTask": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\EnterpriseMgmt\\MDMMaintenenceTask",
+      "integrity": "sha512-MDM enterprise",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/DmClient": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Feedback\\Siuf\\DmClient",
+      "integrity": "sha512-Feedback SiUF",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/DmClientOnScenarioDownload": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Feedback\\Siuf\\DmClientOnScenarioDownload",
+      "integrity": "sha512-SiUF download",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/File-History-maintenance": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\FileHistory\\File History (maintenance)",
+      "integrity": "sha512-File history",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/RefreshCache": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Flighting\\OneSettings\\RefreshCache",
+      "integrity": "sha512-Flighting cache",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/InputSettingsRestoreDataAvailable": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Input\\InputSettingsRestoreDataAvailable",
+      "integrity": "sha512-Input settings",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/LocalUserDataAvailable": {
+      "version": "Disabled",
+      "resolved": "Task://Microsoft\\Windows\\Input\\LocalUserDataAvailable",
+      "integrity": "sha512-Input local data",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      }
+    }
+  }
+}
+
